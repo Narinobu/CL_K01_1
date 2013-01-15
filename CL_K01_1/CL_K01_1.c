@@ -6,7 +6,7 @@
 
 void main(void)	{
 	char s[] = "‚©‚ñ‚½‚ñ‚¾‚bŒ¾Œê"; //•¶š‚ğƒLƒƒƒ‰Œ^”z—ñ‚É“ü‚ê‚é
-	int i; 
+	int i; //intŒ^•Ï”i‚Ì’è‹`
 	s[10] = '\0';
 	for(i = 0; i != '\0' ; i = i + 1)	{
 		printf("%s", s[i]);
